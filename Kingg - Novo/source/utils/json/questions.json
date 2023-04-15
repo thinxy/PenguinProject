@@ -1,0 +1,335 @@
+{
+    "perguntas": [
+        {
+            "pergunta": "Com quantos anos uma pessoa se torna adulta? (NO BRASIL)",
+            "respostas": [
+                "18",
+                "dezoito"
+            ],
+            "descricao": "Em muitos países, como o Brasil, a pessoa é considerada adulta e responsável por seus próprios atos aos 18. Para os médicos, no entanto, 18 ainda é cedo. Antes dos 24 anos, o cérebro não está formado o suficiente para que a pessoa saiba avaliar as situações de uma maneira clara."
+        },
+        {
+            "pergunta": "Atualmente, ​qual ​é ​o ​país ​mais ​populoso ​do ​mundo?",
+            "respostas": [
+                "china"
+            ],
+            "descricao": "A China (país asiático) é a nação com o maior número de habitantes, sendo seguida pela Índia. Porém, conforme estimativas da ONU, o contingente populacional indiano ultrapassará o chinês até 2050."
+        },
+        {
+            "pergunta": "Qual ​é ​o ​maior ​site ​de ​buscas ​atual?",
+            "respostas": [
+                "google",
+                "google chrome",
+                "chrome"
+            ],
+            "descricao": "O maior e mais conhecido site de buscas. Embora já existisse previamente, o Google alcançou seu sucesso em meados de 2001. Seu conceito é baseado no uso do PageRank, que tem como premissa que as páginas mais buscadas estejam ligadas, em maior quantidade, a outras páginas."
+        },
+        {
+            "pergunta": "Primogênito ​é ​o ​nome ​dado ​ao ​primeiro ​ou ​ao ​último ​filho ​de ​um ​casal?",
+            "respostas": [
+                "primeiro"
+            ],
+            "descricao": "Primogênito é o termo utilizado para designar o primeiro filho de um casal, também conhecido como o filho mais velho, em relação aos seus irmãos consanguíneos."
+        },
+        {
+            "pergunta": "Qual ​é ​o ​nome ​do ​personagem ​do ​folclore ​brasileiro ​que ​tem ​uma ​perna ​só?",
+            "respostas": [
+                "saci",
+                "saci-pererê"
+            ],
+            "descricao": "Nome de origem tupi-guarani, o Saci-pererê é uma das lendas brasileiras mais conhecidas. É representada por um menino negro que possui uma perna só. Além disso, fuma cachimbo e usa uma carapuça vermelha que lhe dá poderes mágicos. Muito brincalhão e travesso, o Saci surge como um redemoinho e gosta de assustar pessoas."
+        },
+        {
+            "pergunta": "Qual ​é ​o ​nome ​da ​figura ​natalina ​em ​forma ​de ​bom ​velhinho?",
+            "respostas": [
+                "papai-noel",
+                "papai noel"
+            ],
+            "descricao": "Uma das figuras mais populares do Natal é o Papai Noel, um velhinho barbudo e barrigudo que se veste de vermelho. Na tradição natalina, o Papai Noel é o personagem que traz presentes para as crianças bem-comportadas na véspera do Natal."
+        },
+        {
+            "pergunta": "Qual ​é ​o ​refrigerante ​mais ​vendido ​do ​mundo?",
+            "respostas": [
+                "coca",
+                "coca-cola",
+                "coca cola"
+            ],
+            "descricao": "Coca-Cola é um refrigerante carbonado vendido em lojas, restaurantes, mercados e máquinas de venda automática em todo o mundo. Ele é produzido pela The Coca-Cola Company, sediada em Atlanta, Estados Unidos, e é muitas vezes referido apenas como Coca-Cola."
+        },
+        {
+            "pergunta": "Qual ​é ​o ​feminino ​de ​cão?",
+            "respostas": [
+                "cadela"
+            ],
+            "descricao": "Substantivo feminino Fêmea do cão."
+        },
+        {
+            "pergunta": "Qual ​é ​o ​conto ​infantil ​onde ​a ​personagem ​principal ​usa ​um ​sapatinho ​de ​cristal?",
+            "respostas": [
+                "cinderela"
+            ],
+            "descricao": "Cinderela era filha de um comerciante rico. Depois que seu pai morreu, sua madrasta tomou conta da casa que era de Cinderela. Cinderela então, passou a viver com sua madrasta malvada, junto de suas duas filhas que tinham inveja da beleza de Cinderela e transformaram-na em uma serviçal.            "
+        },
+        {
+            "pergunta": "No ​total, ​quantos ​meses ​tem ​uma ​criança ​que ​acabou ​de ​completar ​1 ​ano ​de ​idade?",
+            "respostas": [
+                "12",
+                "doze"
+            ],
+            "descricao": "O desenvolvimento e a formação da personalidade do bebé aos 12 meses: emoções e relações sociais, a linguagem e aprendizagem e competências motoras."
+        },
+        {
+            "pergunta": "Quantos ​anos ​separam ​uma ​olimpíada ​de ​outra?",
+            "respostas": [
+                "4",
+                "quatro"
+            ],
+            "descricao": "Olimpíadas ou Jogos Olímpicos são competições de diferentes modalidades esportivas que são realizadas a cada quatro anos, onde participam atletas de todos os continentes do mundo."
+        },
+        {
+            "pergunta": "Quantos fusos horários existem na Rússia?",
+            "respostas": [
+                "11",
+                "onze"
+            ],
+            "descricao": "E o governo, às vezes, toma decisões peculiares. É a Rússia, maior país do mundo em extensão longitudinal. Ao todo, 11 fusos horários e mais de 10 mil quilômetros separam a região oeste do extremo leste."
+        },
+        {
+            "pergunta": "Quantas tiras há na bandeira dos Estados Unidos?",
+            "respostas": [
+                "13",
+                "treze"
+            ],
+            "descricao": "A bandeira dos Estados Unidos é feita de treze faixas, sete delas vermelhas e seis brancas, e todas representam as treze colônias. Existe ainda, no canto superior esquerdo, de cor azul, um retângulo com cinquenta estrelas brancas, as quais fazem menção a todos os estados que compõem os país."
+        },
+        {
+            "pergunta": "Quantos dias são necessários para a Terra orbitar o sol?",
+            "respostas": [
+                "365"
+            ],
+            "descricao": "Você certamente aprendeu na escola que a Terra faz uma órbita elíptica em torno do Sol. Esse movimento, conhecido como translação, leva 365 dias (mais 5 horas, 45 minutos e 46 segundos) para ser completo."
+        },
+        {
+            "pergunta": "Qual dos impérios a seguir não possui um idioma escrito: Inca, Azteca, Egípcio ou Romano?",
+            "respostas": [
+                "inca",
+                "incas"
+            ],
+            "descricao": "Os incas foram uma das mais importantes civilizações do mundo, assim como os astecas e os maias. Originalmente os incas eram um clã da tribo dos quíchuas, localizado na região de Cusco, no Peru. A partir do século XII, porém, iniciaram a formação de um vasto império cuja capital era Cusco."
+        },
+        {
+            "pergunta": "Qual país tem mais ilhas no mundo?",
+            "respostas": [
+                "indonésia",
+                "indonesia"
+            ],
+            "descricao": "A Indonésia é formada por aproximadamente 14 mil ilhas no Oceano Índico, é considerado o maior arquipélago do mundo. Considerado o maior arquipélago do mundo, a Indonésia é formada por aproximadamente 14 mil ilhas no Oceano Índico, na porção sudeste do continente asiático."
+        },
+        {
+            "pergunta": "Qual é o menor país do mundo?",
+            "respostas": [
+                "vaticano"
+            ],
+            "descricao": "Menor país do mundo. Você sabia que o Vaticano é um país, reconhecido pela Organização das Nações Unidas? Situado bem na zona norte da cidade de Roma, o Vaticano é considerado o menor do mundo, com 0,50 Km2. Com 460 habitantes em 2012, o Vaticano tem como moeda o Euro."
+        },
+        {
+            "pergunta": "Onde é o lugar natural mais baixo do planeta Terra?",
+            "respostas": [
+                "fossa das marianas"
+            ],
+            "descricao": "A Fossa das Marianas é o local mais profundo dos oceanos, atingindo uma profundidade de 10 984 metros. Localiza-se no oceano Pacífico, a leste das ilhas Marianas, na fronteira convergente entre as placas tectônicas do Oceano Pacífico e das Filipinas."
+        },
+        {
+            "pergunta": "Qual é o rio mais longo do mundo?",
+            "respostas": [
+                "amazonas",
+                "rio amazonas"
+            ],
+            "descricao": "Maior rio do mundo em volume de água, o Amazonas agora pode ser considerado também o maior em extensão, com 140 quilômetros a mais que o rio Nilo, na África."
+        },
+        {
+            "pergunta": "Qual é a série de livros mais vendida do século 21?",
+            "respostas": [
+                "harry potter"
+            ],
+            "descricao": "Harry Potter é de longe a série literária mais vendida no mundo (450 milhões, considerando todos os livros), mas cada título ocupa uma posição diferente na lista dos mais vendidos."
+        },
+        {
+            "pergunta": "De onde é a invenção do chuveiro elétrico?",
+            "respostas": [
+                "brasil"
+            ],
+            "descricao": "Francisco Canhos é o nome do homem que, na década de 40, desenvolveu o primeiro chuveiro elétrico seguro em Jaú-SP. O aparelho vinha sendo desenvolvido desde os anos 30, mas apresentava riscos de curto-circuito."
+        },
+        {
+            "pergunta": "Quantas casas decimais tem o número pi?",
+            "respostas": [
+                "infinitas",
+                "infinito",
+                "infinita"
+            ],
+            "descricao": "Ao longo dos tempos, vários estudiosos têm se dedicado a calcular o número pi e já chegaram ao número de 5 bilhões de casas."
+        },
+        {
+            "pergunta": "Atualmente, quantos elementos químicos a tabela periódica possui?",
+            "respostas": [
+                "118"
+            ],
+            "descricao": "Os últimos elementos foram adicionados à tabela periódica em 2016. Eles são: 113 (Nihônio), 115 (Moscóvio), 117 (Tenessino) e 118 (Oganessônio)."
+        },
+        {
+            "pergunta": "Quanto tempo a luz do Sol demora para chegar à Terra?",
+            "respostas": [
+                "oito minutos",
+                "8 minutos"
+            ],
+            "descricao": "Essa é uma questão que se fundamenta na ótica. Ela é calculada com base na distância do Sol em relação à Terra, que é de aproximadamente 150 000 000 km, considerando que a velocidade da luz no vácuo é 300 000 Km/s. 150 000 000 dividido por 300 000 é igual a 500 segundos, ou seja, 8,33 minutos."
+        },
+        {
+            "pergunta": "Qual personagem folclórico costuma ser agradado pelos caçadores com a oferta de fumo?",
+            "respostas": [
+                "caipora"
+            ],
+            "descricao": "Considerada a protetora da floresta, a Caipora assusta os caçadores, os quais levam-lhe fumo de corda. O fumo é deixado junto a um tronco de árvore com o intuito de agradar a Caipora para, assim, os caçadores poderem caçar."
+        },
+        {
+            "pergunta": "Em que período da pré-história o fogo foi descoberto?",
+            "respostas": [
+                "paleolítico"
+            ],
+            "descricao": "Foi no Paleolítico que o fogo começou a ser utilizado, quando os homens aprenderam que era possível obter fogo por meio do atrito de pedaços de madeira e pedra."
+        },
+        {
+            "pergunta": "Qual a montanha mais alta do Brasil?",
+            "respostas": [
+                "pico da neblina"
+            ],
+            "descricao": "O Pico da Neblina é o ponto mais elevado do Brasil, contando com 2995 metros de altura. Localiza-se no Amazonas, na fronteira com a Venezuela e a Colômbia."
+        },
+        {
+            "pergunta": "Em qual local da Ásia o português é língua oficial?",
+            "respostas": [
+                "macau"
+            ],
+            "descricao": "Macau tem duas línguas oficiais, mandarim e português. Macau, uma região especial da China, foi território português até 1999."
+        },
+        {
+            "pergunta": "\"It is six twenty\" ou \"twenty past six\". Que horas são em inglês?",
+            "respostas": [
+                "06:20",
+                "6:20",
+                "6 e 20",
+                "seis e vinte"
+            ],
+            "descricao": "Em inglês, “past” é usado para indicar até 29 minutos passados de uma determinada hora. A partir de trinta minutos, é usada a expressão “half past”: It is half past eight. ou It is eight thirty."
+        },
+        {
+            "pergunta": "Como é a conjugação do verbo caber na 1.ª pessoa do singular do presente do indicativo?",
+            "respostas": [
+                "eu caibo"
+            ],
+            "descricao": "Caber é um verbo irregular da 2ª conjugação. Apesar de estranho, “eu caibo” é a forma correta de conjugá-lo na 1ª pessoa do presente do indicativo."
+        },
+        {
+            "pergunta": "Cite um dos países transcontinentais:",
+            "respostas": [
+                "rússia"
+            ],
+            "descricao": "A Rússia, cujo nome oficial é Federação Russa, é o maior país em extensão territorial do mundo. Essa nação é transcontinental, pois pertence a mais de um continente: Europa e Ásia."
+        },
+        {
+            "pergunta": "Qual foi o recurso utilizado inicialmente pelo homem para explicar a origem das coisas?",
+            "respostas": [
+                "mitologia"
+            ],
+            "descricao": "A mitologia é um sistema de crenças que inclui uma série de narrativas e lendas, as quais fizeram parte do imaginário coletivo de diversas civilizações antigas. Dessa forma, no começo do desenvolvimento da humanidade, diversos povos utilizaram a mitologia para explicar alguns fenômenos e a origem das coisas."
+        },
+        {
+            "pergunta": "Júpiter e Plutão são os correlatos romanos de quais deuses gregos?",
+            "respostas": [
+                "zeus e hades"
+            ],
+            "descricao": "Na mitologia romana, Júpiter tem Zeus como seu correlato grego. Ele é considerado o pai dos deuses, sendo o deus dos céus, da chuva, da luz e do raio. Já Plutão, tem Hades como seu correlato grego, o deus do submundo e dos infernos."
+        },
+        {
+            "pergunta": "Qual o maior animal terrestre?",
+            "respostas": [
+                "elefante africano"
+            ],
+            "descricao": "O elefante africano é o maior animal terrestre. Ele pode medir até 4 metros de altura e 7 de comprimento. Seu peso pode chegar até 8 toneladas."
+        },
+        {
+            "pergunta": "Cite o nome de um dos três Reis Magos?",
+            "respostas": [
+                "baltazar",
+                "belchior",
+                "gaspar"
+            ],
+            "descricao": "Os três reis magos são personalidades que visitaram Jesus após o seu nascimento. Eles ofereceram alguns itens como forma de presentear a chegada do Salvador. Assim, Belchior levou ouro, Gaspar, incenso, e Baltazar, mirra."
+        },
+        {
+            "pergunta": "Qual a religião monoteísta que conta com o maior número de adeptos no mundo?",
+            "respostas": [
+                "cristianismo"
+            ],
+            "descricao": "Baseado na fé em Jesus Cristo, o filho de Deus, o Cristianismo é a religião com maior número de fiéis no mundo, com aproximadamente 2 bilhões de seguidores."
+        },
+        {
+            "pergunta": "As pessoas de qual tipo sanguíneo são consideradas doadores universais?",
+            "respostas": [
+                "tipo o"
+            ],
+            "descricao": "No Sistema ABO, existem quatro tipos sanguíneos: A, B, AB e O. O sangue O doa para todos os outros tipos (A,B,AB e O), entretanto, somente recebe de O. Por isso, ele é considerado o doador universal."
+        },
+        {
+            "pergunta": "Quais são os cromossomos que determinam o sexo masculino?",
+            "respostas": [
+                "y"
+            ],
+            "descricao": "Os cromossomos sexuais são dois: o “X” é o cromossomo feminino e “Y”, o cromossomo masculino."
+        },
+        {
+            "pergunta": "Em que estado australiano fica situada a cidade de Sydney?",
+            "respostas": [
+                "nova gales do sul"
+            ],
+            "descricao": "Sydney é a capital do estado australiano de Nova Gales do Sul, sendo a cidade mais populosa da Austrália com cerca de 5 milhões de habitantes."
+        },
+        {
+            "pergunta": "Quem amamentou os gêmeos Rômulo e Remo?",
+            "respostas": [
+                "uma loba",
+                "loba"
+            ],
+            "descricao": "Na mitologia Romana, Rômulo e Remo são dois irmãos gêmeos que foram alimentados por uma loba quando bebês. Filhos do Rei Marte e de Reia, quando nasceram, eles foram lançados em um rio para morrerem afogados, no entanto, foram encontradas por uma loba que passou a amamentá-los."
+        },
+        {
+            "pergunta": "No exterior de que famoso edifício francês foi construída uma enorme pirâmide de vidro em 1989?",
+            "respostas": [
+                "museu do louvre"
+            ],
+            "descricao": "O museu do Louvre, localizado em Paris no Palácio do Louvre, é o maior museu de arte do mundo e um dos monumentos mais visitados na cidade.\n\nA pirâmide de vidro e aço, situada na frente do museu, foi construída entre os anos de 1985 e 1989. Essa obra foi encomendada em 1984 pelo Presidente François Mitterrand e teve como arquiteto o chinês Ieoh Ming Pei."
+        },
+        {
+            "pergunta": "Como se chamam os vasos que transportam sangue do coração para a periferia do corpo?",
+            "respostas": [
+                "artérias"
+            ],
+            "descricao": "As artérias são um tipo de vasos sanguíneos que transportam o sangue arterial (com oxigênio e nutrientes) do coração para o corpo."
+        },
+        {
+            "pergunta": "Que substância é absorvida pelas plantas e expirada por todos os seres vivos?",
+            "respostas": [
+                "dióxido de carbono"
+            ],
+            "descricao": "O dióxido de carbono (CO2), popularmente chamado de gás carbônico, é uma molécula composta por um átomo de carbono (C) e dois de oxigênio (O). As plantas absorvem dióxido de carbono (CO2) do ar e o transformam no processo de fotossíntese. Já os animais, inspiram oxigênio (O2) e expiram dióxido de carbono (CO2)."
+        },
+        {
+            "pergunta": "Qual o metal cujo símbolo químico é o Au?",
+            "respostas": [
+                "ouro"
+            ],
+            "descricao": "O ouro é um metal de transição presente na tabela periódica, sendo representado pelo símbolo Au."
+        }
+    ]
+}

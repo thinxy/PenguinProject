@@ -1,0 +1,60 @@
+{
+    "money": {
+        "name": "Libras",
+        "emoji": "<:kingg_coin1:1023600908879282186>",
+        "other": {},
+        "shop": {}
+    },
+    "text": {
+        "separator": "»"
+    },
+    "perms": {
+        "dev": {
+            "jardim": "799086286693597206",
+            "yuri": "841392424617377815",
+            "ogpedro": "664603839282020352",
+            "ppy": "325117262036205568"
+        },
+        "adm": {
+            "jardim": "799086286693597206",
+            "yuri": "841392424617377815",
+            "ogpedro": "664603839282020352",
+            "ppy": "325117262036205568",
+            "nx": "514489813743829002",
+            "bob": "941099170805207130",
+            "leox": "852934699218894878"
+        },
+        "testers": {
+            "jardim": "799086286693597206",
+            "yuri": "841392424617377815",
+            "ogpedro": "664603839282020352",
+            "ppy": "325117262036205568",
+            "nx": "514489813743829002",
+            "dark_": "916368980204224582",
+            "wennzin": "707267315925778563",
+            "kirito": "824444124743598141",
+            "bob": "992797548303622164"
+        }
+    },
+    "emojis": {
+        "error": "❌",
+        "success": "✅",
+        "piece": "🧩",
+        "waiting": "⏰",
+        "question": "❔"
+    },
+    "images": {},
+    "colors": {
+        "default": "#faaf40",
+        "red": "#ed3232",
+        "green": "#32ed61",
+        "blue": "#73b0ff",
+        "invisible": "#303136"
+    },
+    "links": {
+        "guild": "https://discord.gg/kingg",
+        "invite": "https://discord.com/oauth2/authorize?client_id=816841271964467241&scope=bot%20applications.commands&permissions=413461245505",
+        "upvote": "https://top.gg/bot/816841271964467241/vote"
+    },
+    "logs": {}
+}
