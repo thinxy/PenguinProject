@@ -2,12 +2,12 @@ import {
   ApplicationCommandOptionType,
   ApplicationCommandType,
 } from "discord.js";
-import SlashCommand from "../../Structures/base/SlashCommand.js";
+import Command from "../../Structures/base/Command.js";
 import SQL from "sequelize";
 import pkg from "util-stunks";
 const { unabbreviate } = pkg;
 
-export default class BetSlashCommand extends SlashCommand {
+export default class BetCommand extends Command {
   constructor(client) {
     super(client, {
       name: "bet",
@@ -29,10 +29,6 @@ export default class BetSlashCommand extends SlashCommand {
     let userU =
       message.mentions.users.first() || this.client.users.cache.get(args[0]);
 
-    const user2 = await this.client.db.users.findOne({
-      where: { id: userU.id },
-    });
-
     if (!userU) {
       return message.reply({
         content: `${this.client.emoji.error} **-** ${message.author}, você não mencionou nenhum usuário para apostar.`,
@@ -44,6 +40,10 @@ export default class BetSlashCommand extends SlashCommand {
         ephemeral: true,
       });
     }
+
+    const user2 = await this.client.db.users.findOne({
+      where: { id: userU.id },
+    });
 
     if (Date.now() > userdb.dataValues.daily) {
       return message.reply({

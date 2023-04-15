@@ -28,7 +28,7 @@ export default class CrimeCommand extends Command {
 
     if (Date.now() > userdb.dataValues.daily) {
       return message.reply({
-        content: `${this.client.emoji.temp} **-** ${message.author}, você não resgatou o seu prêmio diário use ${prefix}daily para poder usar meus comandos de economia.`,
+        content: `${this.client.emoji.temp} **-** ${message.author}, você não resgatou o seu prêmio diário use \`${prefix}daily\` para poder usar meus comandos de economia.`,
         ephemeral: true,
       });
     }

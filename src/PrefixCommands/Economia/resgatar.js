@@ -25,6 +25,8 @@ export default class ResgatarCommand extends Command {
     });
   }
   async run(message, args, prefix) {
+    if (!args[0]) return message.reply(`${this.client.emoji.error} **-** ${message.author}, você não colocou nenhum código para resgatar.`)
+
     const codigo = args[0].toUpperCase();
     const clientdb = await this.client.db.users.findOne({
       where: { id: this.client.user.id },
@@ -32,8 +34,6 @@ export default class ResgatarCommand extends Command {
     const userdb = await this.client.db.users.findOne({
       where: { id: message.author.id },
     });
-
-    if (!args[0]) return message.reply(`${this.client.emoji.error} **-** ${message.author}, você não colocou nenhum código para resgatar.`)
 
     let codigosResgatados = clientdb.dataValues.CodigosArray;
     if (!codigosResgatados) codigosResgatados = [];

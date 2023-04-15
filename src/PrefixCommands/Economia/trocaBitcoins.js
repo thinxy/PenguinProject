@@ -29,6 +29,8 @@ export default class TrocaBitcoinCommand extends Command {
     });
     const bitcoin = clientdb.dataValues.bitcoinValue;
 
+    if (!minerios) return message.reply(`${this.client.emoji.error} **-** ${message.author}, você não colocou nenhuma quantidade para trocar.`)
+
     if (userdb.dataValues.bitcoins < minerios) {
       return message.reply({
         content: `${this.client.emoji.error} **-** ${message.author}, você não tem o valor de \`${minerios} Bitcoins\` que me informou, para ver seus Bitcoins utilize \`/bitcoins\`.`,
@@ -36,7 +38,7 @@ export default class TrocaBitcoinCommand extends Command {
     }
 
     if (userdb.dataValues.bitcoin < 5) {
-      return message.reply(``);
+      return;
     }
 
     const embed = new EmbedBuilder()

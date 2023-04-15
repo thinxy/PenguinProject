@@ -23,6 +23,20 @@ export default class PayCommand extends Command {
       message.mentions.users.first() || this.client.users.cache.get(args[0]);
     const valor = unabbreviate(args[1]);
 
+    if (!user) {
+      return message.reply({
+        content: `${this.client.emoji.error} **-** ${message.author}, você não mencionou nenhum usuário para apostar.`,
+        ephemeral: true,
+      });
+    }
+
+    if (!valor) {
+      return message.reply({
+        content: `${this.client.emojis.error} **-** ${message.author}, você deve colocar um valor para fazer a transferência.`,
+        ephemeral: true,
+      });
+    }
+
     if (user.id == message.author.id) {
       return message.reply({
         content: `${this.client.emojis.error} **-** ${message.author}, você não pode transferir dinheiro para si mesmo, coloque um usuário válido.`,
@@ -58,6 +72,25 @@ export default class PayCommand extends Command {
     let userdb2 = await this.client.db.users.findOne({
       where: { id: user.id },
     });
+
+    if (Date.now() > userdb.dataValues.daily) {
+      return message.reply({
+        content: `${this.client.emoji.temp} **-** ${message.author}, você não resgatou o seu prêmio diário use \`${prefix}daily\` para poder usar meus comandos de economia.`,
+        ephemeral: true,
+      });
+    }
+    if (Date.now() > user2.dataValues.daily) {
+      return message.reply({
+        content: `${this.client.emoji.temp} **-** ${message.author}, o usuário ${userU}, não resgatou o seu prêmio diário para ele resgatar ele precisa utilizar \`${prefix}daily\` para poder usar meus comandos de economia.`,
+        ephemeral: true,
+      });
+    }
+
+    if (message.guild.members.me.permissions.has("AddReactions")) {
+      return message.reply(
+        `${this.client.emoji.error} **-** ${message.author}, Eu não tenho a permissão para enviar este comando! Para utilizá-lo, preciso ter permissão \`AddReactions\`!`
+      );
+    }
 
     if (userdb2.dataValues.verify == false) {
       message.reply({

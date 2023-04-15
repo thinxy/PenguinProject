@@ -15,14 +15,14 @@ export default class RinhaCommand extends Commands {
     super(client, {
       name: "rinha",
       description: "「Economia」abra uma rinha para desafiar seus amigos!",
-      aliases: ['duel','batalha'],
+      aliases: ["duel", "batalha"],
       help: {
         usage: "{prefix}rinha <valor> [limite]",
       },
     });
   }
   async run(message, args, prefix) {
-    const money = unabbreviate(args[0])
+    const money = unabbreviate(args[0]);
     let limite = parseInt(args[1]) || 15;
 
     const moneyD = parseInt(money);
@@ -31,23 +31,32 @@ export default class RinhaCommand extends Commands {
       where: { id: message.author.id },
     });
 
+    if (!moneyD) {
+      return message.reply(
+        `${this.client.emoji.error} **${message.author}** Coloque a quantia que deseja apostar na rinha.`
+      );
+    }
+    if (!money) {
+      return message.reply(
+        `${this.client.emoji.error} **${message.author}** Coloque a quantia que deseja apostar na rinha.`
+      );
+    }
     if (!limite) {
       return message.reply(
         `${this.client.emoji.error} **${message.author}** Coloque a quantidade de pessoas máximas que poderão participar da rinha.`
       );
-    } else if (limite <= 1 || limite > 15) {
+    }
+    if (limite <= 1 || limite > 15) {
       return message.reply(
         `${this.client.emoji.error} **${message.author}** A quantidade mínima de participantes é 2 e máxima de 15.`
       );
-    } else if (!money) {
-      return message.reply(
-        `${this.client.emoji.error} **${message.author}** Coloque a quantia que deseja apostar na rinha.`
-      );
-    } else if (user.dataValues.money < money) {
+    }
+    if (user.dataValues.money < money) {
       return message.reply(
         `${this.client.emoji.error} **${message.author}** Você não possui essa **quantia** de moedas.`
       );
-    } else if (money <= 0) {
+    }
+    if (money <= 0) {
       return message.reply(
         `${this.client.emoji.error} **${message.author}** Coloque um valor **maior** que 0.`
       );
@@ -233,14 +242,12 @@ export default class RinhaCommand extends Commands {
 
                   t.unshift(
                     `[<t:${Math.ceil(
-                        message.createdAt / 1000
+                      message.createdAt / 1000
                     )}:d> <t:${Math.ceil(
-                        message.createdAt / 1000
+                      message.createdAt / 1000
                     )}:t>] 📥 **|** Ganhou **${totalmoney.toLocaleString(
                       "en-US"
-                    )} Gelitos** na rinha do usuário \`${
-                      message.author.tag
-                    }\`.`
+                    )} Gelitos** na rinha do usuário \`${message.author.tag}\`.`
                   );
 
                   await this.client.db.users.update(
@@ -261,14 +268,12 @@ export default class RinhaCommand extends Commands {
 
                   t.unshift(
                     `[<t:${Math.ceil(
-                        message.createdAt / 1000
+                      message.createdAt / 1000
                     )}:d> <t:${Math.ceil(
-                        message.createdAt / 1000
+                      message.createdAt / 1000
                     )}:t>] 📤 **|** Perdeu **${money.toLocaleString(
                       "en-US"
-                    )} Gelitos** na rinha do usuário \`${
-                      message.author.tag
-                    }\`.`
+                    )} Gelitos** na rinha do usuário \`${message.author.tag}\`.`
                   );
 
                   if (user2.dataValues.money <= money) {
@@ -376,9 +381,7 @@ export default class RinhaCommand extends Commands {
                 if (!t) t = [];
 
                 t.unshift(
-                  `[<t:${Math.ceil(
-                    message.createdAt / 1000
-                  )}:d> <t:${Math.ceil(
+                  `[<t:${Math.ceil(message.createdAt / 1000)}:d> <t:${Math.ceil(
                     message.createdAt / 1000
                   )}:t>] 📥 **|** Ganhou **${totalmoney.toLocaleString(
                     "en-US"
@@ -402,9 +405,7 @@ export default class RinhaCommand extends Commands {
                 if (!t) t = [];
 
                 t.unshift(
-                  `[<t:${Math.ceil(
-                    message.createdAt / 1000
-                  )}:d> <t:${Math.ceil(
+                  `[<t:${Math.ceil(message.createdAt / 1000)}:d> <t:${Math.ceil(
                     message.createdAt / 1000
                   )}:t>] 📤 **|** Perdeu **${money.toLocaleString(
                     "en-US"
@@ -430,14 +431,12 @@ export default class RinhaCommand extends Commands {
 
                   t.unshift(
                     `[<t:${Math.ceil(
-                        message.createdAt / 1000
+                      message.createdAt / 1000
                     )}:d> <t:${Math.ceil(
-                        message.createdAt / 1000
+                      message.createdAt / 1000
                     )}:t>] 📤 **|** Perdeu **${money.toLocaleString(
                       "en-US"
-                    )} Gelitos** na rinha do usuário \`${
-                      message.author.tag
-                    }\`.`
+                    )} Gelitos** na rinha do usuário \`${message.author.tag}\`.`
                   );
 
                   await this.client.db.users.update(
