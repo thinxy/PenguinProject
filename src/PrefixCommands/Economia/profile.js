@@ -340,7 +340,7 @@ export default class ProfileCommand extends Command {
           case "sobre":
             message
               .reply(
-                `Olá ${message.author}, me parece que você deseja mudar sua biografia, para mudar basta mandar no chat oque você deseja colocar em se sobre mim.`
+                `Olá ${message.author}, me parece que você deseja mudar sua biografia, para mudar basta mandar no chat oque você deseja colocar em seu sobremim.`
               )
               .then((msl) => {
                 let coletor = message.channel.createMessageCollector({

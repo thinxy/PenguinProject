@@ -26,7 +26,7 @@ export default class HelpCommand extends Command {
 
     if (c) {
       const name = c.toLowerCase();
-      const comando = this.client.slashCommands.get(name);
+      const comando = this.client.commands.get(name);
 
       if (!comando) {
         return message.reply(
@@ -77,7 +77,7 @@ export default class HelpCommand extends Command {
         .setTitle("❓- Penguin Help")
         .setColor("Aqua")
         .setDescription(
-          `Olá ${message.author}, meu nome é ${this.client.username} eu sou um bot feito em JavaScript e Discord.js, caso queira ver mais informações sobremim utilize \`/botinfo\`, sou um bot focado em Economia e Administração para seu servidor.`
+          `Olá ${message.author}, meu nome é ${this.client.user.tag} eu sou um bot feito em JavaScript e Discord.js, caso queira ver mais informações sobremim utilize \`/botinfo\`, sou um bot focado em Economia e Administração para seu servidor.`
         )
         .setThumbnail(this.client.user.displayAvatarURL({ dynamic: true }))
         .setFooter({
@@ -106,7 +106,7 @@ export default class HelpCommand extends Command {
         .addFields({
           name: "ㅤ",
           value:
-            "*Caso queira informação de um comando em específico utilize `/help <comando>`!*",
+            `*Caso queira informação de um comando em específico utilize \`${prefix}help <comando>\`!*`,
         });
 
       const row = new ActionRowBuilder().addComponents(
